@@ -2,7 +2,7 @@
 This is a repository for deploying the GenEst app on shinyapps.io.
 
 The following instructions assume that you have already created a shinyapps.io
-account and have configured *rsconnect* to work with your account.
+account and have configured **rsconnect** to work with your account.
 
 1. Download of the suite of dependency packages:
 
@@ -16,7 +16,7 @@ if(length(packages) > 0){
 }
 ```
 
-2. Download the newest version of *GenEst* from GitHub:
+2. Download the newest version of **GenEst** from GitHub:
 
 ```
 devtools::install_github("ddalthorp/genest")
